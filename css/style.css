@@ -1,6 +1,69 @@
 * {
   padding: 0;
   margin: 0;
+}
+
+#header-items {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  background-color: red;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-icons {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bar {
+  padding-left: 15%;
+}
+
+.logo {
+  padding-right: 50%;
+  width: 40%;
+}
+
+.socials {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+.search-bar {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  justify-content: space-between;
+}
+
+
+.search-input {
+  width: 70%;
+  
+}
+
+
+.button {
+  /* background-color: #fff; */
+  border: 1px solid blue;
+  color: blue;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+ 
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
   font-family: 'Roboto';
 }
 
@@ -16,12 +79,12 @@ h5 {
   position: fixed;
   left: 0;
   top: 0; 
-   display: flex;
-   width: 100%;
-   align-items: center;
-   justify-content: space-between;
-   height: 5rem;
-   z-index: 70;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  z-index: 70;
 }
 
 .logo {
@@ -37,16 +100,19 @@ h5 {
  .right-icons {
  padding-right: 20px;
 } 
+
 .search-bar {
   align-items: center;
   border: 1px solid #333;
   margin: 0 10px;
 }
+
 .search-input {
   width: 500px;
   display: inline-flex;
   border: 0;
 }
+
 .search-icon {
   border-left: 1px solid #333;
 }
@@ -56,16 +122,13 @@ h5 {
 }
 
 .first-video {
-position: absolute;
-top: 100px; 
-}
-.vid-text {
-  align-items: center;
-}
+ position: absolute;
+ top: 100px; 
+} 
 
 .video {
 position: absolute;
 left: 25px;
 right: 25px;
 top: 100px;
-} 
+}   */
