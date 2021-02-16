@@ -14,32 +14,36 @@ h5 {
 
 .header-icons {
   position: fixed;
-  left: 40px;
-  top: 10px; 
+  left: 0;
+  top: 0; 
    display: flex;
+   width: 100%;
    align-items: center;
    justify-content: space-between;
+   height: 5rem;
    z-index: 70;
 }
 
 .logo {
   width: 70px;
-  margin: 0 20px;
+}
+.left-icons {
+ margin-left:  0; 
 }
 .socials {
   display: flex;
 }
 
  .right-icons {
- padding-right: 30px;
+ padding-right: 20px;
 } 
 .search-bar {
   align-items: center;
   border: 1px solid #333;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 .search-input {
-  width: 700px;
+  width: 500px;
   display: inline-flex;
   border: 0;
 }
@@ -47,19 +51,21 @@ h5 {
   border-left: 1px solid #333;
 }
 
-.button-signin {
-  color: blue;
+.vid {
+ position: relative;
 }
 
-.vid {
- 
+.first-video {
+position: absolute;
+top: 100px; 
 }
-/* 
-vid-text {
-  
+.vid-text {
+  align-items: center;
 }
 
 .video {
- 
- left: 650px;
-} */
+position: absolute;
+left: 25px;
+right: 25px;
+top: 100px;
+} 
