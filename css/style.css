@@ -48,9 +48,16 @@
   
 }
 
+.search-svg {
+ padding-right: 210px;
+}
+ .search-icon {
+  
+   border: 1px solid;
+ }
+
 
 .button {
-  /* background-color: #fff; */
   border: 1px solid blue;
   color: blue;
   padding: 20px 40px;
@@ -58,8 +65,23 @@
   text-decoration: none;
   font-size: 16px;
   border-radius: 5px;
- 
 }
+
+.vid {
+  position: relative;
+ }
+ 
+ .first-video {
+  position: absolute;
+  top: 100px; 
+ } 
+ 
+ .video {
+ position: absolute;
+ left: 25px;
+ right: 25px;
+ top: 100px;
+ }   
 
 /* * {
   padding: 0;
@@ -115,7 +137,7 @@ h5 {
 
 .search-icon {
   border-left: 1px solid #333;
-}
+}/*
 
 .vid {
  position: relative;
@@ -131,4 +153,4 @@ position: absolute;
 left: 25px;
 right: 25px;
 top: 100px;
-}   */
+}   
