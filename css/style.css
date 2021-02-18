@@ -131,14 +131,17 @@ color: rgb(96, 96, 96);
   padding-left: 1%;
 } 
 main {
-	width: 60%;
+	width: 70%;
+  /* left: 6%; */
 }
 
 .side-bar {
 	position: absolute;
 	top: 80px;
-	right: 0; 
+	/* left: 5; */ 
+  right: 2%;
 	width: 30%;
+
 }
 
 .side-content {
