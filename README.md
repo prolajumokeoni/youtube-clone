@@ -2,7 +2,7 @@
 
 ### Youtube-clone
 
-[live demo] (https://prolajumokeoni.github.io/youtube-clone/)
+[live demo](https://prolajumokeoni.github.io/youtube-clone/)
 
 
 ## 📫 How to reach *prolajumokeoni*
