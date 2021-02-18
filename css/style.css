@@ -1,16 +1,17 @@
 * {
   padding: 0;
   margin: 0;
-	font-family: 'Roboto';
 }
 
 #header-items {
   display: flex;
   height: 5rem;
   width: 100%;
-  background-color: red;
+  background-color:#fff;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 69;
 }
 
 .left-icons {
@@ -20,7 +21,7 @@
   justify-content: space-between;
 }
 .bar {
-  padding-left: 10%;
+  padding-left: 14%;
 }
 
 .logo {
@@ -63,13 +64,19 @@
 
 
 .button {
+  justify-content: space-between;
+  align-items: center;
   border: 1px solid blue;
   color: blue;
-  padding: 20px 40px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   border-radius: 5px;
+}
+.signin-user {
+  padding-right: 10px;
+  color: #fff;
 }
 .first-video {
 	position: absolute;
@@ -80,6 +87,9 @@
 .video-content {
   padding-top: 5%;
 } 
+.icons-spacing {
+  padding-top: 10px;
+}
 
 .text-header {
 	font-size: 18px;
@@ -106,30 +116,109 @@ color: rgb(96, 96, 96);
   padding-left: 1%;
 } 
 main {
-	width: 70%;
+	width: 60%;
 }
 
 .side-bar {
 	position: absolute;
-	top: 100px;
-	right: 5%;
-	width: 30%;
+	top: 80px;
+	right: 0; 
+	width: 35%;
 }
 
 .side-content {
 	width: 100%;
-	/* background-color: red; */
   display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
 .side-text {
   display: flex;
-  flex-wrap: wrap;
-  /* line-height: 2rem; */
-  font-size: 15px;
-  border: 1px solid blue;
+  font-size: 10px;
+  justify-content: space-between;
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-block;
+  align-items: center;
+  padding-left: 20px;
 } 
 
+.subscribe-button {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-right: 20px;
+}
+.description {
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.youtuber {
+  border-radius: 50px;
+}
+
+.description-text {
+  line-height: 2;
+  padding-right: 30%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.comments {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.user {
+  background: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  vertical-align: middle;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.comment-line {
+  display: flex;
+  text-decoration: underline;
+  text-underline-position: under;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+} 
+.user-comment {
+  display: flex;
+}
 h5 {
-  font-weight: bolder;
+  font-family: 'fantasy';
+  size: 15px; 
+}
+p {
+  font-family: 'fantasy';
+  color: gray;
+  size: 5%;
+}
+main {
+  background-color: #F9F9F9;
+}
+aside {
+  background-color: #F9F9F9;
 }
